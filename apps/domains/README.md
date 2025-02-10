@@ -1,0 +1,7 @@
+photography-darkroom
+photography-celebrations
+photography-connections
+blog
+recipes
+development
+design
