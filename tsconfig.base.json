@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@personal-nexus/theme": ["theme/src/index.ts"]
+      "@personal-nexus/theme": ["libs/theme/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
