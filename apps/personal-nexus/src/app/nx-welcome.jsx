@@ -5,7 +5,7 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
-export function NxWelcome({ title }: { title: string }) {
+export function NxWelcome({ title }) {
   return (
     <>
       <style
@@ -720,11 +720,7 @@ export function NxWelcome({ title }: { title: string }) {
                 </div>
                 <p>Your Nx Cloud remote cache setup is almost complete.</p>
 
-                <a
-                  href="https://cloud.nx.app/connect/o2XZajexiE"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href="" target="_blank" rel="noreferrer">
                   Click here to finish
                 </a>
               </div>
@@ -848,5 +844,4 @@ export function NxWelcome({ title }: { title: string }) {
     </>
   );
 }
-
 export default NxWelcome;

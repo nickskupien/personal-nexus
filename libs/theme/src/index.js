@@ -1,3 +1,1 @@
-import createTheme from './lib/createTheme';
-
-export { createTheme };
+export * from './lib/theme';

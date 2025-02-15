@@ -1,9 +1,0 @@
-{
-  "name": "darkroom-e2e",
-  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
-  "projectType": "application",
-  "sourceRoot": "apps/domains/photography/darkroom-e2e/src",
-  "implicitDependencies": ["darkroom"],
-  "// targets": "to see all targets run: nx show project darkroom-e2e --web",
-  "targets": {}
-}
