@@ -51,11 +51,21 @@ function Home(props) {
   const bottomRightArea = (
     <PaddedContainerUI size="xlarge">
       <DomainsUI>
-        <DomainUI disabled>Photos</DomainUI>
-        <DomainUI disabled>Recipes</DomainUI>
-        <DomainUI disabled>Dev</DomainUI>
-        <DomainUI disabled>Design</DomainUI>
-        <DomainUI disabled>Blog</DomainUI>
+        <DomainUI href="https://photos.nickskupien.com" disabled>
+          Photos
+        </DomainUI>
+        <DomainUI href="https://recipes.nickskupien.com" disabled>
+          Recipes
+        </DomainUI>
+        <DomainUI href="https://dev.nickskupien.com" disabled>
+          Dev
+        </DomainUI>
+        <DomainUI href="https://design.nickskupien.com" disabled>
+          Design
+        </DomainUI>
+        <DomainUI href="https://blog.nickskupien.com" disabled>
+          Blog
+        </DomainUI>
         <DomainUI href="https://darkroom.nickskupien.com">Darkroom</DomainUI>
       </DomainsUI>
     </PaddedContainerUI>

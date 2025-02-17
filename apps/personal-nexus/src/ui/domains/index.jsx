@@ -10,6 +10,7 @@ const Wrapper = styled.div`
 
   @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
     align-items: flex-end;
+    gap: ${(props) => props.theme.spacing.medium.normal};
   }
 `;
 

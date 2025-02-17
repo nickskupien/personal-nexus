@@ -13,6 +13,10 @@ const Link = styled(UnstyledLink)`
   border-radius: 5px;
   transition: background 0.1s ease-out;
 
+  @media (min-width: ${(props) => props.theme.breakpoints.tablet}) {
+    font-size: 22px;
+  }
+
   ${(props) =>
     !props.$disabled &&
     css`
