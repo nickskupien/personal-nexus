@@ -60,13 +60,13 @@ function Home(props) {
         <DomainUI href="https://dev.nickskupien.com" disabled>
           Dev
         </DomainUI>
-        <DomainUI href="https://design.nickskupien.com" disabled>
-          Design
-        </DomainUI>
+        <DomainUI href="https://design.nickskupien.com">Design</DomainUI>
         <DomainUI href="https://blog.nickskupien.com" disabled>
           Blog
         </DomainUI>
-        <DomainUI href="https://darkroom.nickskupien.com">Darkroom</DomainUI>
+        <DomainUI href="https://darkroom.nickskupien.com" disabled>
+          Darkroom
+        </DomainUI>
       </DomainsUI>
     </PaddedContainerUI>
   );
