@@ -1,0 +1,9 @@
+export default {
+  GRAY700: '#333333',
+  GRAY600: '#4f4f4f',
+  GRAY500: '#666666',
+  GRAY300: '#D3D3D3',
+  BLUE500: '#47b0ce',
+  BLUE600: '#076E83',
+  BLUETRANSPARENT300: '#3498DB33',
+};
