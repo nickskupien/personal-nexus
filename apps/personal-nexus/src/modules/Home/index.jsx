@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import HomeLayoutUI from '../../ui/layout/home';
-import ViewportUI from '../../ui/layout/viewport';
-import PaddedContainerUI from '../../ui/container/padded';
-import FadingCarouselUI from '../../ui/carousel/fading';
-import TextUI from '../../ui/text';
-import SpacingUI from '../../ui/spacing';
-import DomainUI from '../../ui/domain';
-import DomainsUI from '../../ui/domains';
+import HomeLayoutUI from '@personal-nexus/ui/layout/home';
+import ViewportUI from '@personal-nexus/ui/layout/viewport';
+import PaddedContainerUI from '@personal-nexus/ui/container/padded';
+import FadingCarouselUI from '@personal-nexus/ui/carousel/fading';
+import TextUI from '@personal-nexus/ui/text';
+import SpacingUI from '@personal-nexus/ui/spacing';
+import DomainUI from '@personal-nexus/ui/domain';
+import DomainsUI from '@personal-nexus/ui/domains';
 
 function Home(props) {
   const topLeftArea = (
