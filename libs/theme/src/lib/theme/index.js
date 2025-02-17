@@ -1,14 +1,23 @@
-export const theme = {
-  colors: {
-    primary: '#1d4ed8', // Blue
-    secondary: '#9333ea', // Purple
-    background: '#f9fafb', // Light gray
-    text: '#111827', // Dark gray
-  },
-  spacing: {
-    small: '8px',
-    medium: '16px',
-    large: '24px',
-  },
-  // Add any additional theme properties as needed.
+import animations from './animations';
+import borders from './borders';
+import breakpoints from './breakpoints';
+import colors from './colors';
+import elevation from './elevation';
+import patterns from './patterns';
+import spacing from './spacing';
+import typography from './typography';
+import zindex from './zindex';
+
+const theme = {
+  animations,
+  borders,
+  breakpoints,
+  colors,
+  elevation,
+  patterns,
+  spacing,
+  typography,
+  zindex,
 };
+
+export default theme;

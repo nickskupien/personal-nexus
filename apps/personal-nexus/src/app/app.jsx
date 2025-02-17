@@ -1,9 +1,12 @@
-import Main from '../modules/Main'
+import Home from '../modules/Home'
 import { Route, Routes, Link } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+import theme from '../theme'
 
 export function App() {
   return (
-    <>
+    <ThemeProvider theme={theme}>
+      {/* START: routes */}
       {/* <div role="navigation">
         <ul>
           <li>
@@ -18,7 +21,7 @@ export function App() {
         <Route
           path="/"
           element={
-            <Main></Main>
+            <Home></Home>
           }
         />
         <Route
@@ -31,7 +34,7 @@ export function App() {
         />
       </Routes>
       {/* END: routes */}
-    </>
+    </ThemeProvider>
   );
 }
 

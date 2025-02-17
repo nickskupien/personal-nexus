@@ -1,6 +1,8 @@
 import { merge } from 'lodash';
-import { theme } from '../theme';
+import theme from '../theme';
 
-export const createtheme = (overrides = {}) => {
+const createTheme = (overrides = {}) => {
   return merge({}, theme, overrides);
 };
+
+export default createTheme;
