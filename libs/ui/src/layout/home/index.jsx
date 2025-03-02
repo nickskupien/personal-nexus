@@ -26,6 +26,7 @@ const TopLeftArea = styled.div`
 
   @media (min-width: ${(props) => props.theme.breakpoints?.widescreen}) {
     width: 40%;
+    padding-left: ${(props) => props.theme.spacing?.medium?.double};
   }
 `;
 
@@ -42,6 +43,7 @@ const BottomRightArea = styled.div`
 
   @media (min-width: ${(props) => props.theme.breakpoints?.widescreen}) {
     width: 40%;
+    padding-right: ${(props) => props.theme.spacing?.medium?.double};
   }
 `;
 
