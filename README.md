@@ -12,9 +12,9 @@ Can be accessed via [nickskupien.com](nickskupien.com)
 
 # Planned subdomains
 
-dev.nickskupien.com — dev projects
-design.nickskupien.com — UI/UX design
-photos.nickskupien.com — professional photography
-darkroom.nickskupien.com — behind the scenes and experiemental photography
-blog.nickskupien.com — personal blog
-recipes.nickskupien.com — recipes and cooking guides
+- dev.nickskupien.com — dev projects
+- design.nickskupien.com — UI/UX design
+- photos.nickskupien.com — professional photography
+- darkroom.nickskupien.com — behind the scenes and experiemental photography
+- blog.nickskupien.com — personal blog
+- recipes.nickskupien.com — recipes and cooking guides
