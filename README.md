@@ -1,6 +1,6 @@
 # Overview
 
-Repo to house my personal website, [nickskupien.com](nickskupien.com)
+Repo to house my personal website, [nickskupien.com](https://nickskupien.com/)
 
 Setup as a monorepo, with shared resources, where each subdomain of my site is it's own project.
 
@@ -8,7 +8,7 @@ Each subdomain will have it's own theme and style.
 
 # Site
 
-Can be accessed via [nickskupien.com](nickskupien.com)
+Can be accessed via [nickskupien.com](https://nickskupien.com/)
 
 # Planned subdomains
 
