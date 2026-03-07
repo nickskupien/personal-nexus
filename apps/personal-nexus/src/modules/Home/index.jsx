@@ -57,9 +57,7 @@ function Home(props) {
         <DomainUI href="https://recipes.nickskupien.com" disabled>
           Recipes
         </DomainUI>
-        <DomainUI href="https://dev.nickskupien.com" disabled>
-          Dev
-        </DomainUI>
+        <DomainUI href="https://github.com/nickskupien">Dev</DomainUI>
         <DomainUI href="https://design.nickskupien.com">Design</DomainUI>
         <DomainUI href="https://blog.nickskupien.com" disabled>
           Blog
