@@ -62,7 +62,9 @@ function Home(props) {
         <DomainUI href="https://blog.nickskupien.com" disabled>
           Blog
         </DomainUI>
-        <DomainUI href="https://darkroom.nickskupien.com">Darkroom</DomainUI>
+        <DomainUI href="https://darkroom.nickskupien.com" disabled>
+          Darkroom
+        </DomainUI>
       </DomainsUI>
     </PaddedContainerUI>
   );
